@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 /**
  * main - Entry point
  * Description - print alphabets in reverse
@@ -7,11 +8,11 @@
  */
 int main(void)
 {
-char c = 'z';
-while (c >= 'a')
+char b = 'z';
+while (b >= 'a')
 {
-putchar('c');
-c++;
+putchar(b);
+b--;
 }
 putchar('\n');
 return (0);
