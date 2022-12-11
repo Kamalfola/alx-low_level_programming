@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - main block
+ * Main - main block
  * descripton - print the alphabets in lower case
  * return 0 (success)
  */
@@ -14,5 +14,5 @@ putchar(c);
 c++;
 }
 putchar('\n');
-return(0);
+return (0);
 }
