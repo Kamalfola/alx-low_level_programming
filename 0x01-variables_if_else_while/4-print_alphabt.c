@@ -14,10 +14,12 @@ while (c <= 'z')
 {
 if (c == q)
 {
+c++;
 continue;
 }
 if (c == e)
 {
+c++;
 continue;
 }
 putchar(c);
