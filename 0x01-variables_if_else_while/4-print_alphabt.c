@@ -2,8 +2,8 @@
 #include <stdlib.h>
 /**
  * main - entry point
- * descrition - print all alphabets except q and e
- * return - 0
+ * Descrition - print all alphabets except q and e
+ * Return: 0
  */
 int main(void)
 {

@@ -2,8 +2,8 @@
 #include <stdlib.h>
 /**
  * main - main block
- * descripton - Get a random it with 5
- * return 0
+ * Descripton - Get a random it with 5
+ * Return 0
  **/
 int main(void)
 {

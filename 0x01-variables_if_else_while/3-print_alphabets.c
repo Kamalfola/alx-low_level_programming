@@ -2,8 +2,8 @@
 #include <stdlib.h>
 /**
  * main - entry point
- * description - print lower case and upper case alphabets
- * return 0
+ * Description - print lower case and upper case alphabets
+ * Return: 0
  */
 int main(void)
 {
