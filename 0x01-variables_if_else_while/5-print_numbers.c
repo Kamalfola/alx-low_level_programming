@@ -2,8 +2,8 @@
 #include <stdlib.h>
 /**
  * main - entry point
- * description - print numbers in base 10
- * return: 0
+ * Description - print numbers in base 10
+ * Return: 0
  */
 int main(void)
 {
