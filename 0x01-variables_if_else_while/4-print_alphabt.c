@@ -5,7 +5,7 @@
  * descrition - print all alphabets except q and e
  * return - 0
  */
-int main()
+int main(void)
 {
 char c = 'a';
 char q = 'q';
@@ -14,11 +14,11 @@ while (c <= 'z')
 {
 if (c == q)
 {
-break;
+continue;
 }
 if (c == e)
 {
-break;
+continue;
 }
 putchar(c);
 c++;
