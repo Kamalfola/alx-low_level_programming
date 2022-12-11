@@ -2,9 +2,9 @@
 #include <stdlib.h>
 /**
  * main - main block
- * descripton - Get a randon it with 5
+ * descripton - Get a random it with 5
  * return 0
- */
+ **/
 int main(void)
 {
 char c = 'a';
