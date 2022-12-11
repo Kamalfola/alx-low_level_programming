@@ -2,8 +2,8 @@
 #include <stdlib.h>
 /**
  * main - main block
- * descripton - print the alphabets in lower case
- * return 0 
+ * descripton - Get a randon it with 5
+ * return 0
  */
 int main(void)
 {
