@@ -14,11 +14,11 @@ for (a = 48; a < 58; a++)
 {
 for (b = 48; b < 58; b++)
 {
-if (b > 1)
+if (b > a)
 {
 for (c = 48; c < 58; c++)
 {
-if ( c > b)
+if (c > b)
 {
 putchar(a);
 putchar(b);
