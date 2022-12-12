@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  * Description -print numbers seperated by commas
- * return: 0
+ * Return: 0
  */
 int main(void)
 {
