@@ -4,15 +4,19 @@
  * main - Entry point
  * Description - print numbers of base 16
  * Return: 0
- * */
+ */
 int main(void)
 {
-int b = 0;
-while (b < 16)
+char ch;
+for (ch = '0'; ch <= '9'; ch++)
 {
-putchar(b);
-b++;
+putchar(ch);
 }
+for (ch = 'a'; ch <= 'f'; ch++)
+{
+putchar(ch);
+}
+
 putchar('\n');
 return (0);
 }
