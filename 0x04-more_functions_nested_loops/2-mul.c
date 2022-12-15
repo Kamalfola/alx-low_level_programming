@@ -1,10 +1,11 @@
 #include "main.h"
 /**
  * mul - function declaration
- * @c: multiplication
+ * @b: multiplication
+ * @a: multiplication
  * Return: 0
  */
 int mul(int a, int b)
 {
-return(a * b);
+return (a * b);
 }
