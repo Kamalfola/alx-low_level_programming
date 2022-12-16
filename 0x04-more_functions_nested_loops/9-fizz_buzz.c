@@ -13,6 +13,7 @@ int i;
 char f[] = "Fizz";
 char b[] = "Buzz";
 char fb[] = "FuzzBuzz";
+
 for (i = 0; i <= 100; i++)
 {
 if (i == 100)
