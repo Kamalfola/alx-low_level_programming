@@ -1,5 +1,5 @@
-#include <stdio.h>
 #include <stdlib.h>
+#include <stdio.h>
 /**
  * main - entry point
  * 3 prints fizz
@@ -26,7 +26,7 @@ else if ((i % 3 == 0) && (i % 5 == 0))
 printf("%s ", fb);
 else
 printf("%d ", i);
-}
+i}
 printf("\n");
 return (0);
 }
