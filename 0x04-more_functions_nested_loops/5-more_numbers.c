@@ -1,7 +1,8 @@
 #include "main.h"
 /**
  * more_numbers - print more numbers
- *
+ * @i: initialize i
+ * @j: initialze j
  * Return: void
  */
 void more_numbers(void)
