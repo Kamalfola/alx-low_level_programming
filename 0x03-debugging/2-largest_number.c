@@ -14,7 +14,7 @@ int largest;
 
 if (a > b)
 {
-if ( a > c)
+if (a > c)
 {
 largest = a;
 }
@@ -27,7 +27,7 @@ else if (b > c)
 {
 largest = b;
 }
-else 
+else
 {
 largest = c;
 }
