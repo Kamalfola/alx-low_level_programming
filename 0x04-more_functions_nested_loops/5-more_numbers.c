@@ -10,9 +10,9 @@ for (j = 1; j <= 10; j++)
 {
 for (i = 0; i <= 14; i++)
 {
-_putchar(i);
+_putchar('1');
 }
-_putchar(j);
+_putchar(j % 10 + '0');
 }
 _putchar('\n');
 }
