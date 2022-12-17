@@ -17,13 +17,21 @@ char fb[] = "FuzzBuzz";
 for (i = 0; i <= 100; i++)
 {
 if (i == 100)
+{
 printf("%s", b);
+}
 else if (i % 3 == 0)
+{
 printf("%s ", f);
+}
 else if (i % 5)
+{
 printf("%s ", b);
+}
 else if ((i % 3 == 0) && (i % 5 == 0))
+{
 printf("%s ", fb);
+}
 else
 printf("%d ", i);
 }
