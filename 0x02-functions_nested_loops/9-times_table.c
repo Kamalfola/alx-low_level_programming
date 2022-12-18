@@ -20,7 +20,9 @@ _putchar(32);
 _putchar(d + '0');
 _putchar(e + '0');
 }
-else if (b != 0)
+else
+{
+if (b != 0)
 {
 _putchar(44);
 _putchar(32);
@@ -29,5 +31,6 @@ _putchar(32);
 _putchar('\n');
 }
 _putchar(c + '0');
+}
 }
 }
