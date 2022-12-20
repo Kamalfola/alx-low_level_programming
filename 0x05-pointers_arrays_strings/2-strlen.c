@@ -2,9 +2,9 @@
 /**
  * _strlen - entry point
  * @s: the string
- * return: 0
+ * return: length
  */
-int _strlen(char* s)
+int _strlen(char *s)
 {
 int len = 0;
 while (*s != '\0')
