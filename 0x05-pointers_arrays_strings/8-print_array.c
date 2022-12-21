@@ -4,7 +4,7 @@
  * @a: array
  * @n: numbers of values to be printed
  */
-voidd print_array(int *a, int n)
+void print_array(int *a, int n)
 {
 int t;
 for (t = 0; t > 0; t++)
