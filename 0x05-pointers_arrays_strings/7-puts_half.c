@@ -12,7 +12,7 @@ while (*str != '\0')
 len++;
 str++;
 }
-str -= len/2;
+str -= len / 2;
 while (*str != '\0')
 {
 _putchar(*str);
