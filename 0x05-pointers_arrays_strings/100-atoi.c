@@ -1,4 +1,4 @@
-#incude "main.h"
+#include "main.h"
 /**
  * atoi - entry point
  * @s: pointer to s=a string
