@@ -1,10 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _memset - entry point
+ * _memset - setting a memory ti a specific value
  * @s: pointer to the memory area
  * @n: number of bytes
  * @b: constant byte
+ * Return: s
  */
 char *_memset(char *s, char b, unsigned int n)
 {
