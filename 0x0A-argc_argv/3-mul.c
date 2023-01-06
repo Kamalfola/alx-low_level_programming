@@ -22,6 +22,8 @@ int main(int argc, char *argv[])
 			printf("%d\n", muls);
 	}
 		else
+		{
 			printf("ERROR\n");
+		}
 	return (1);
 }
