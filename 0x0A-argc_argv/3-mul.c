@@ -3,12 +3,12 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * main - multiply two numbers
+ * _atoi - multiply two numbers
  * @argc: argument count
  * @argv: argument string
  * Return: 1
  */
-int main(int argc, char *argv[])
+int _atoi(int argc, char *argv[])
 {
 	int i, muls = 0;
 
