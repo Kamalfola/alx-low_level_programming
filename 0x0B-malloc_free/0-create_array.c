@@ -4,16 +4,17 @@
 /**
  * *create_array - allocating memory for an array
  * @c: pointer to the array
- * @n: number of characters to be assigned
+ * @size: number of characters to be assigned
  * Return: 0
  */
 char *create_array(unsigned int size, char c)
 {
 	char *b;
 	unsigned int i;
+
 	if (size == 0)
 		return (NULL);
-	b = (char*)malloc(size * sizeof(c));
+	b = (char *)malloc(size * sizeof(c));
 	if (b == 0)
 	{
 		return (NULL);
@@ -24,5 +25,5 @@ char *create_array(unsigned int size, char c)
 			c = *(b + i);
 		}
 	return (b);
-	free (b);
+	free(b);
 }
