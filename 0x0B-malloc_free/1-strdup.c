@@ -3,23 +3,24 @@
 #include <string.h>
 /**
  * _strdup - duplicating a string
- * @s: duplicated string
+ * @str: duplicated string
  * Return:0
  */
 char *_strdup(char *str)
 {
 	char *s;
-	int n = 0;
-	s = (char *)malloc(n * strlen(str));
+	int n = strlen(str);
+
+	s = (char *)malloc(n * sizeof(str));
 	if (str == 0)
 	{
-		return NULL;
+		return (NULL);
 	}
 	if (s == 0)
 	{
 		return (NULL);
 	}
 		strcpy(s, str);
-	return(s);
+	return (s);
 	free(s);
 }
