@@ -3,7 +3,9 @@
 #include <string.h>
 /**
  * string_nconcat - concatenating strings
- * @a: number of strings
+ * @s1: first string
+ * @s2: second string
+ * @n: numbers
  * Return: 0
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
@@ -28,7 +30,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	for (k = 0; k < len; k++)
 		if (k < i)
 			p[k] = s1[k];
-		else 
+		else
 			p[k] = s2[k - i];
 	p[i] = '\0';
 	return (p);
