@@ -20,20 +20,27 @@ int _strlen(char *s)
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	int i, a;
 	char *p;
-	int len;
+	unsigned int i, j, len, k;
 
-	len = unsigned int _strlen(s1);
-	p = malloc((len + n + 1)* sizeof(char));
-	if (p ==  NULL)
+	if (s1 == NULL)
+		s1 = "";
+	if (s2 == NULL)
+		s2 = "";
+	for (i = 0; s1[i] != '\0'; i++)
+		;
+	for (j = 0; s2[j] != '\0'; i++)
+		;
+	if (n >= j)
+		n = j;
+	len = i + n;
+	p = malloc(len + 1);
+	if (p == NULL)
 		return (NULL);
-	for (i = 0; a = 0; i < (len + n); i++)
-	{
-		if (i < len)
-			p[i] == s1[i];
-		else
-			p[i] == s2[a++];
-	}
-	p[i] == '\0';
+	for (k = 0; k < len; k++)
+		if (k < i)
+			p[k] = s1[k];
+		else 
+			p[k] = s2[k - i];
+	p[i] = '\0';
 	return (p);
