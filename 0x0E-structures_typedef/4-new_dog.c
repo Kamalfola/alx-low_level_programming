@@ -29,8 +29,8 @@ char *_strcpy(char *dest, char *src)
 	dest[i] = '\0';
 	return (dest);
 }
- /**
- * new_dog - copying a structure member into another
+/**
+ * *new_dog - Create a new dog
  * @name: name of the dog
  * @age: age of the dog
  * @owner: name of the owner
