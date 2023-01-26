@@ -1,6 +1,6 @@
 #include "3-calc.h"
-#include "3-op_functions.c"
 #include <stdio.h>
+#include <string.h>
 /**
  * get_op_func - get operator function
  * @s: operator passed
@@ -8,20 +8,21 @@
  */
 int (*get_op_func(char *s))(int, int)
 {
-	op p[] - {
-		{"+", op_add}
-		{"-", op_sub}
-		{"*", op_mul}
-		{"/", op_div}
-		{"%", op_mod}
+	op_t ops[] = {
+		{"+", op_add},
+		{"-", op_sub},
+		{"*", op_mul},
+		{"/", op_div},
+		{"%", op_mod},
 		{NULL, NULL}
 	};
 	int i;
+
 	i = 0;
-	while (p[].op)
+	while (ops[i].op)
 	{
-		if (strcmp(p[i].op, s) == 0)
-			return (p[].f);
+		if (strcmp(ops[i].op, s) == 0)
+			return (ops[i].f);
 		i++;
 	}
 	return (NULL);

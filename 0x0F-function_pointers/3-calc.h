@@ -1,10 +1,16 @@
-#ifndef 3-MAIN_H
-#define 3-MAIN_H
-typedef struct
+#ifndef CALC_H
+#define CALC_H
+/**
+ * struct op - struct
+ * @op: first
+ * @f: funct
+ */
+typedef struct op
 {
-	char *c;
-	int (*p) (int a, int b);
-}op;
+	char *op;
+	int (*f)(int a, int b);
+} op_t;
+
 int op_add(int a, int b);
 int op_sub(int a, int b);
 int op_mul(int a, int b);
