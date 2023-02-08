@@ -10,11 +10,14 @@ int append_text_to_file(const char *filename, char *text_content)
 {
 	int o, w, n = 0;
 
-	if (text_content == NULL)
+	if (text_content != NULL)
 	{
-		o = open(filename, O_WRONLY | O_EXCL, O_APPEND);
-		w = write(o, text_content, n);
+		for (n = 0; text_content[n];)
+			n++;
 	}
+		o = open(filename, O_WRONLY | O_APPEND);
+		w = write(o, text_content, n);
+	
 	if (filename == NULL)
 	{
 		return (-1);
