@@ -12,23 +12,19 @@ int main(void)
 int i;
 char f[] = "Fizz";
 char b[] = "Buzz";
-char fb[] = "FuzzBuzz";
+char fb[] = "FizzBuzz";
 
-for (i = 0; i <= 100; i++)
+for (i = 1; i <= 100; i++)
 {
-if (i == 100)
-{
-printf("%s", b);
-}
-else if (i % 3 == 0)
+	if (i % 3 == 0 && i % 5 != 0)
 {
 printf("%s ", f);
 }
-else if (i % 5)
+else if (i % 5 == 0 && i % 3 != 0)
 {
 printf("%s ", b);
 }
-else if ((i % 3 == 0) && (i % 5 == 0))
+else if (i % 3 == 0 && i % 5 == 0)
 {
 printf("%s ", fb);
 }
